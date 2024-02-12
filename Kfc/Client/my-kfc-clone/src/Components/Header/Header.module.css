@@ -1,0 +1,98 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 50%;
+    /* margin-top: 5px; */
+    /* background-color: brown; */
+    color: white;
+    padding: 1px 0px;
+    
+}
+
+.left {
+    width: 30%;
+    align-items: center;
+    margin: auto;
+}
+
+.right {
+    width: 70%;
+    margin-right: 100px;
+}
+
+.left ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 40px;
+    /* align-items: center; */
+}
+
+.left ul li {
+    gap: 12px;
+
+}
+
+.right ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    gap: 2px;
+    align-items: center;
+}
+
+.user {
+    font-size: larger;
+    color: black;
+}
+
+.left ul li button {
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    background: none;
+
+
+}
+
+.userIcon {
+    margin-right: 5px;
+    color: rgb(59, 52, 52);
+    margin-right: 16px;
+
+}
+
+.cartLogo {
+    height: 70px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.TopHeader {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-top: 1px solid rgb(226, 218, 218);
+    border-bottom: 1px solid rgb(226, 218, 218);
+    /* margin: 3px 0px; */
+    /* padding-top:5px ; */
+    align-items: center;
+}
+.TopHeader p{
+    margin-top: 10px;
+}
+.TopHeader button {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 4px 13px;
+    /* margin: 6px 0px; */
+
+}
+
+.locationIcon {
+    color: crimson;
+    margin-right: 10px;
+}

@@ -1,0 +1,22 @@
+.menubar{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    font-family:'Segoe UI';
+
+}
+.menubar button{
+    background-color:rgb(255, 0, 51);
+    color: white;
+    font-size:15px;
+    font-weight: 600;
+    border-radius:30px;
+    padding:9px 43px;
+    margin: 6px 0px;
+    
+}

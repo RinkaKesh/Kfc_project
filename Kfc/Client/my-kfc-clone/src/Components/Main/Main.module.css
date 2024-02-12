@@ -1,0 +1,41 @@
+.category{
+    /* margin-top: 100px; */
+    margin: auto;
+    width: 74%;
+    align-items: flex-start;
+}
+.categoryWrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    margin-top: 54px;
+    gap: 24px;
+    
+    /* gap:15px */
+}
+.categoryCard{
+    margin: 8px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(253, 247, 252);
+   
+}
+
+.categoryCard img{
+    width:198px;
+    height:147px;
+
+}
+.categoryCard h6{
+    font-weight: 700;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 18px;
+}
+#finger_licking{
+    
+    font-weight: 600;
+}
+#finger_licking p{
+    margin-top: 18px;
+}

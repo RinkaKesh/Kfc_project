@@ -1,0 +1,76 @@
+.sliderContainer {
+    width: 80%;
+    /* height: 500px; */
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden; /* Ensure that the container hides overflowing content */
+    
+    
+}
+
+.sliderCard {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 500px;
+    gap: 10px;
+
+}
+
+.sliderCard div {
+    flex: 0 0 33.33%; /* Each slide takes up 33.33% of the container */
+    padding: 0px 8px 8px 8px; /* Add some padding to the slides */
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+    /* background-color: beige; */
+}
+
+/* Position prev and next buttons */
+.prevButton,
+.nextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5); /* Example background color */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prevButton {
+    left: 0;
+}
+
+.nextButton {
+    right: 0;
+}
+
+/* Style for the images */
+.sliderCard img {
+    width: 100%;
+    max-width: 100%; /* Ensure the image doesn't exceed the card width */
+    max-height: 250px; /* Set a maximum height for the images */
+    height: 250px;
+    object-fit: cover;
+    /* white-space: wrap; */
+
+}
+.sliderCard h2{
+    overflow: hidden;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    width: 100%; /* Make sure the text takes the width of its container */
+    color:crimson;
+    text-align: center;
+}
+.sliderCard p {
+    overflow: hidden;
+    /* white-space: nowrap; */
+    /* text-overflow: ellipsis; */
+    width: 100%; /* Make sure the text takes the width of its container */
+    color:rgb(47, 46, 46);
+    text-align: center;
+}
+.showDetails{
+    display: flex;
+    justify-content: space-around;
+}
